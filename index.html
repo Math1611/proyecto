@@ -86,7 +86,7 @@
             </div>
 
             <div class="btn">
-                <button>Filtrar</button>
+                <button onclick="alert('Aplicando Filtros...')">Filtrar</button>
             </div>
         </aside>
 
@@ -105,8 +105,8 @@
                     <br>
                     <br>
                     <div class="voto-1 voto">
-                        <p>157</p>
-                    <button>Votar</button>
+                        <p id="voto1">157</p>
+                    <button onclick="voto('voto1')">Votar</button>
                     </div>
                     
                 </div>
@@ -117,8 +117,8 @@
                     <br>
                     <br>
                     <div class="voto-2 voto">
-                        <p>108</p>
-                    <button>Votar</button>
+                        <p id="voto2">108</p>
+                    <button onclick="voto('voto2')">Votar</button>
                     </div>
                 </div>
             </div>
@@ -126,5 +126,7 @@
 
     </main>
 
+
+    <script src="script.js"></script>
 </body>
 </html>
